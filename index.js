@@ -1,10 +1,12 @@
-// Write your code here!
-// DOM node called "myNode"
-const myNode = document.createElement('div');
+const mainElement = document.querySelector('#main');
+mainElement.remove();
 
-// Set the text content using textContent
-myNode.textContent = 'VALENCIA-WALKER is the champion';
+const newHeader = document.querySelector('h1#victory');
 
-// Append the node to the document body or any other element
-document.body.appendChild(myNode);
-//In this code snippet, we create a new div element using document.createElement('div'). Then, we set the text content of the div element using the textContent property. Finally, we append the div element to the document body using document.body.appendChild(myNode).
+newHeader.textContent = 'VALENCIA-WALKER is the champion';
+
+const mainElement = document.querySelector('#main');
+mainElement.remove();
+
+const newHeader = document.querySelector('h1#victory');
+newHeader.textContent = 'VALENCIA-WALKER is the champion';
