@@ -1,5 +1,9 @@
 const mainElement = document.querySelector('#main');
-mainElement.remove();
+if (mainElement) {
+  mainElement.remove();
+}
 
 const newHeader = document.querySelector('h1#victory');
-newHeader.textContent = 'VALENCIA-WALKER is the champion';
+if (newHeader) {
+  newHeader.textContent = 'VALENCIA-WALKER is the champion';
+}
